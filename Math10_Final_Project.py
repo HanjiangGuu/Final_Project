@@ -22,7 +22,7 @@ st.write("Student ID#:48061816")
 st.write("Data_Link: https://drive.google.com/file/d/1brl70j18M8fBJ7EBdZmtmF6Sp0XXvH6H/view?usp=sharing")
 
 st.title("Part 1:Read & Filter the Data.Keep the numeric columns.")
-df = pd.read_csv("/Users/guhanjiang/Desktop/houseprice.csv",na_values = " ")
+df = pd.read_csv("houseprice.csv",na_values = " ")
 
 df2 = pd.DataFrame(df, columns = ["PRICE","SQUARE FEET","BEDS","BATHS"])
 
