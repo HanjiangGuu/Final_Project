@@ -20,6 +20,7 @@ st.title("House Price in Bodega Bay Area with respect to multi-variables")
 st.write("Hanjiang Gu's Math 10 Final Project")
 st.write("Student ID#:48061816")
 st.write("Data_Link: https://drive.google.com/file/d/1brl70j18M8fBJ7EBdZmtmF6Sp0XXvH6H/view?usp=sharing")
+st.write("Github link:https://github.com/HanjiangGuu/Final_Project")
 
 st.title("Part 1:Read & Filter the Data.Keep the numeric columns.")
 df = pd.read_csv("houseprice.csv",na_values = " ")
